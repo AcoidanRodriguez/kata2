@@ -1,3 +1,5 @@
+package software.ulpgc.es;
+
 import java.util.Objects;
 
 public class Person {
