@@ -30,6 +30,14 @@ public class Person {
         return id;
     }
 
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -37,13 +45,5 @@ public class Person {
                 ", height=" + height +
                 ", weight=" + weight +
                 '}';
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public double getHeight() {
-        return height;
     }
 }
