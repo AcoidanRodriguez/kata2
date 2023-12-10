@@ -1,5 +1,3 @@
-package software.ulpgc.es;
-
 import java.util.Objects;
 
 public class Person {
@@ -11,6 +9,15 @@ public class Person {
         this.id = id;
         this.height = height;
         this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", height=" + height +
+                ", weight=" + weight +
+                '}';
     }
 
     @Override
@@ -36,14 +43,5 @@ public class Person {
 
     public double getWeight() {
         return weight;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "id=" + id +
-                ", height=" + height +
-                ", weight=" + weight +
-                '}';
     }
 }
